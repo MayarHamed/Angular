@@ -1,0 +1,14 @@
+<h1 class="text-center">Task1</h1>
+<div class="container">
+  <label for="field">Input</label>
+  <input
+    class="form-control"
+    type="text"
+    placeholder="Please Enter Text"
+    [(ngModel)]="txt"
+    aria-label="default input example"
+  />
+  <label>Output</label>
+  <textarea readonly class="form-control">{{ txt }}</textarea>
+  <button class="btn" (click)="reset()">Reset</button>
+</div>
