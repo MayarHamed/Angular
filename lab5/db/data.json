@@ -1,0 +1,37 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Mayar",
+      "age": 25,
+      "email": "mayar@gmail.com",
+      "phone": "010xxxxxxxxxxx",
+      "nationality": "Egyptian"
+    },
+    {
+      "id": 2,
+      "name": "pete",
+      "age": 22,
+      "email": "pete@yahoo.com",
+      "phone": "011xxxxxxxxxxx",
+      "nationality": "American"
+    },
+    {
+      "id": 3,
+      "name": "tod",
+      "age": 32,
+      "email": "tod@gmail.com",
+      "phone": "015xxxxxxxxxxx",
+      "nationality": "Cancadian"
+    },
+    {
+      "name": "7amo",
+      "age": "66",
+      "email": "7amoo@yahoo.com",
+      "phone": "13xxxxxxxxxxxxx",
+      "nationality": "Egyptian",
+      "id": 4
+    }
+  
+  ]
+}

@@ -1,0 +1,23 @@
+  <div class="container">
+      <table class=" m-5 table text-center">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Nationality</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of Students">
+            <td>{{s.name}}</td>
+            <td>{{s.age}}</td>
+            <td>{{s.email}}</td>
+           <td>{{s.phone}}</td>
+            <td>{{s.nationality}}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>

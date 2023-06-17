@@ -1,0 +1,18 @@
+<div class="d-flex flex-column  align-items-center">
+
+<div class="card rounded w-50 shadow-lg m-5 p-3 d-flex flex-column justify-content-center" id="makeMaxWidth">
+  <form class="d-flex flex-column  align-items-center" (ngSubmit)="Add(name.value,age.value, email.value, phone.value,nationality.value)">
+
+    <input type="text" #name class="form-control w-50 p-3 m-3" placeholder="Name" />
+
+    <input type="text" #age class="form-control w-50 p-3 m-3" placeholder="Age" />
+
+    <input type="text" #email class="form-control w-50 p-3 m-3" placeholder="Email" />
+
+    <input type="text" #phone class="form-control w-50 p-3 m-3" placeholder="Phone" />
+
+    <input type="text" #nationality class="form-control w-50 p-3 m-3" placeholder="Nationality" />
+
+    <button type="submit" class="btn btn-dark mt-3">ADD</button>
+  </form>
+</div></div>
